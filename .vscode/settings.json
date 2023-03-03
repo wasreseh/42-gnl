@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "fcntl.h": "c",
+        "__config": "c",
+        "locale": "c",
+        "_types.h": "c",
+        "stdio.h": "c",
+        "limits.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
