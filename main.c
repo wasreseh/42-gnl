@@ -11,22 +11,23 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 int main()
 {
-    int fd;
-    static char *str;
-    int i = 0;
-    fd = open("cat.txt", O_RDONLY);
-    if (fd == -1)
-        perror("Error While Opening file");
-    while (i < 2)
-    {
-        str = get_next_line(fd);
-        printf("%s", str);
-        free(str);
-        i++;
-    }
-    close(fd);
+    // int fd;
+    // static char *str;
+    // int i = 0;
+    // fd = open("cat.txt", O_RDONLY);
+    // if (fd == -1)
+    //     perror("Error While Opening file");
+    // while (i < 2)
+    // {
+    //     str = get_next_line(fd);
+    //     printf("%s", str);
+    //     free(str);
+    //     i++; 
+    // }
+    // close(fd);
     return (0);
 }
